@@ -2,6 +2,8 @@
 
 A command-line tool that automatically detects and tags [Astro](https://astro.build) projects in your development directories using macOS Finder tags. This makes it easy to visually identify and filter your Astro projects in Finder.
 
+![Astro Project Tagger in action](screenshot.png)
+
 ## Features
 
 - Automatically detects Astro projects by checking:
