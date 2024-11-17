@@ -1,6 +1,6 @@
 # macOS Astro Project Tagger
 
-A command-line tool that automatically detects and tags Astro.js projects in your development directories using macOS Finder tags. This makes it easy to visually identify and filter your Astro projects in Finder.
+A command-line tool that automatically detects and tags [Astro](https://astro.build) projects in your development directories using macOS Finder tags. This makes it easy to visually identify and filter your Astro projects in Finder.
 
 ## Features
 
@@ -23,7 +23,7 @@ A command-line tool that automatically detects and tags Astro.js projects in you
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/macos-astro-tagger.git
+git clone https://github.com/dilantha/macos-astro-tagger.git
 cd macos-astro-tagger
 ```
 
@@ -41,7 +41,7 @@ chmod +x astro_tagger.py
 
 Basic usage to tag all Astro projects in a directory:
 ```bash
-python astro_tagger.py /path/to/your/projects
+python3 astro_tagger.py /path/to/your/projects
 ```
 
 By default, this will:
@@ -53,7 +53,7 @@ By default, this will:
 
 You can specify a custom tag name and color:
 ```bash
-python astro_tagger.py /path/to/projects "My Astro" Blue
+python3 astro_tagger.py /path/to/projects "My Astro" Blue
 ```
 
 Available colors:
@@ -69,12 +69,12 @@ Available colors:
 
 Tag all projects in your web development directory:
 ```bash
-python astro_tagger.py ~/www
+python3 astro_tagger.py ~/www
 ```
 
 Use a custom tag for client projects:
 ```bash
-python astro_tagger.py ~/clients "Client Astro" Orange
+python3 astro_tagger.py ~/clients "Client Astro" Orange
 ```
 
 ## How It Works
